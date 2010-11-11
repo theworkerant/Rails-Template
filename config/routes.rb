@@ -1,4 +1,6 @@
 RailsTemplate::Application.routes.draw do
+  match "/" => "application#index"
+    
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
