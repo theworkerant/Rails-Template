@@ -11,12 +11,14 @@ javascripts:
     - public/javascripts/modernizr.js
   mobile:
     - public/javascripts/jquery.js
+    - public/javascripts/application.mobile.js
     - public/javascripts/jquery.mobile.js
     - public/javascripts/underscore.js
     - public/javascripts/backbone.js
     - public/javascripts/geo.js
     - public/javascripts/console.js
     - public/javascripts/modernizr.js
+    
   mobile-templates:
     - app/views/**/*.jst
     

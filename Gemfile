@@ -1,9 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '3.0.3'
 gem 'mysql2'
 gem 'haml'              
 gem 'jammit'            # assets packaging and minifying, including .jst partial templates
+gem 'feed-normalizer'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

@@ -1,9 +1,9 @@
-.page{:"data-role" => "page"}
+.root_page{:"data-role" => "page"}
   .header{:"data-role" => "header", :"data-theme" => "c"}
     %h1 Page Header
-    = link_to "Preferences", "#preferences", :"data-theme" => "b", :class => "ui-btn-right", :"data-icon" => "gear" 
+    = link_to "Prefs", "#preferences", :"data-theme" => "b", :class => "ui-btn-right", :"data-icon" => "gear" 
   .content{:"data-role" => "content"}
     %ul{:"data-role" => "listview"}
-      %li= link_to "Some link", "#"
-      %li= link_to "Some link", "#"
+      %li= link_to "Locate me", "sample/locate_me"
+      %li= link_to "Some RSS Feed", "sample/rss_feed"
       %li= link_to "Some link", "#"

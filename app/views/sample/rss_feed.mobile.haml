@@ -1,0 +1,7 @@
+.rss_feed_page{:"data-role" => "page"}
+  .header{:"data-role" => "header", :"data-theme" => "c"}
+    %h1 Some RSS Feed
+  .content{:"data-role" => "content"}
+    %ul{:"data-role" => "listview"}
+      - @feed.entries.each do |entry|
+        %li= entry.title

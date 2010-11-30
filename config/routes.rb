@@ -1,5 +1,7 @@
 RailsTemplate::Application.routes.draw do
   match "/" => "application#index"
+  
+  match "/sample/:action", :controller => "sample"
     
   # The priority is based upon order of creation:
   # first created -> highest priority.
